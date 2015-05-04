@@ -19,7 +19,7 @@ $ bower install tree-hocus --save
 Once installed, `@import` into your project in its Tools layer:
 
 ```scss
-@import "bower_componenets/tree-hocus/tools.hocus";
+@import "bower_components/tree-hocus/tools.hocus";
 ```
 
 ### Install using npm:
