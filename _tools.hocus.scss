@@ -1,0 +1,40 @@
+// =============================================================================
+//
+// Name:          Hocus
+//
+// Description:   Generate `:hover` and `:focus` styles in one go.
+//
+// Markup:
+//
+// a {
+//    text-decoration: none;
+//
+//    @include tree-hocus() {
+//        text-decoration: underline;
+//    }
+//
+// }
+//
+// This will yield:
+//
+// a {
+//    text-decoration: none;
+// }
+//
+// a:hover,
+// a:focus {
+//     text-decoration: underline;
+// }
+//
+// =============================================================================
+
+
+
+
+
+@mixin tree-hocus() {
+    &:hover,
+    &:focus {
+        @content;
+    }
+}
