@@ -2,10 +2,6 @@
 
 Generate `:hover` and `:focus` styles in one go.
 
-If you install the `hocus` module using Bower or npm, you will get these 
-dependencies at the same time. If not using Bower or npm, please be sure  to 
-install and `@import` these dependencies in the  relevant way.
-
 ## Installation
 
 You can install the `hocus` module via Bower, npm, or copy and paste.
